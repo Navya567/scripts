@@ -136,8 +136,8 @@ if  [ $USER_ID -ne 0 ] ; then
     exit 1
 fi
 
-
-case  $1 in 
+comp=ALL
+case  $comp in 
     DB) DBF ;;
     APP) APPF ;; 
     WEB) WEBF ;;
